@@ -27,9 +27,9 @@ section {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    border-radius: 30px;
-    padding: 10px;
-    width: 350px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 320px;
     height: 250px;
     
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
@@ -37,14 +37,23 @@ section {
 
 section input {
     border: 1px solid black;
+    width: 75%;
+    padding: 3px;
 }
 
 section div {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 section select {
-    padding: 10px;
-    margin-top: 10px;
+    padding: 5px;
+    margin-top: 5px;
     border: 1px solid black;
+    border-radius: 10px;
+}
+
+#gerar {
+    padding: 5px;
+    margin-top: 5px;
+    width: 100%;
 }
